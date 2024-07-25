@@ -33,7 +33,7 @@ Here are some of the projects featured in my portfolio:
 
 ## Live Demo 🌐
 
-Check out the live version of my portfolio [here](https://your-portfolio-url.vercel.app).
+Check out the live version of my portfolio [here](https://portfolio-6swv7l8le-ahmed-abdelmaleks-projects.vercel.app/).
 
 ## Acknowledgements 🙏
 
