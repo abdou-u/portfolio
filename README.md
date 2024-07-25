@@ -1,10 +1,10 @@
-# Ahmed Abdelmalek's Portfolio 🎉
+# Ahmed's Portfolio 🎉
 
 Welcome to my personal portfolio! This is where I showcase my projects, skills, and experiences. I'm excited to share my journey and work with you. 🚀
 
 ## About Me 👨‍💻
 
-Hi, I'm Ahmed Abdelmalek, a passionate software developer and student at EPFL. I love exploring new technologies and building innovative solutions. 
+Hi, I'm Ahmed, a passionate software developer and student at EPFL. I love exploring new technologies and building innovative solutions. 
 
 ## Technologies Used 🛠️
 
