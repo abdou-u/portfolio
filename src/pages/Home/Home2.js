@@ -15,37 +15,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              With an unquenchable thirst for knowledge and a deep-seated love for programming, I have immersed myself in the digital world, crafting solutions and exploring new realms of technology.
               <br />
-              <br />I am fluent in classics like
+              <br />I am well-versed in a diverse array of languages including
               <i>
-                <b className="purple"> Python, C/C++, Java, Scala, R, VHDL, Assembly. </b>
+                <b className="purple"> Python, C/C++, Java, Scala, R, VHDL, and Assembly.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My core interests lie in building innovative 
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Machine Learning and Artificial Intelligence.
-                </b>
+                <b className="purple"> Web Technologies and Products</b>
+              </i> 
+              , and diving deep into 
+              <i>
+                <b className="purple"> Machine Learning and Artificial Intelligence.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              When I'm not immersed in the digital world, you can find me in the water or on the court. 🏊‍♂️🤽‍♂️🏐 I am a passionate swimmer, water polo player, and volleyball enthusiast. Sports are my second love, right after my devotion to personal projects. As my father always said, <i>"mens sana in corpore sano"</i>, which means a healthy mind in a healthy body. 🧠💪
+              <br />
+              <br />
+              One of the things I enjoy the most is working with PCBs and other hardware. There's something incredibly satisfying about getting my hands dirty and testing hardware in the field after meticulously coding it. The blend of physical and intellectual challenge is exhilarating. 🛠️💻
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -56,6 +47,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
+            <br />
+            <br />
+            <br />
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
@@ -88,4 +82,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
