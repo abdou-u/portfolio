@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Ahmed Abdelmalek's Portfolio 🎉
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio! This is where I showcase my projects, skills, and experiences. I'm excited to share my journey and work with you. 🚀
 
-## Available Scripts
+## About Me 👨‍💻
 
-In the project directory, you can run:
+Hi, I'm Ahmed Abdelmalek, a passionate software developer and student at EPFL. I love exploring new technologies and building innovative solutions. 
 
-### `npm start`
+## Technologies Used 🛠️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Languages**: Python, C, C++, Java, R, SQL, Scala, VHDL, Assembly, Solidity
+- **Tools & Technologies**: Git, LaTeX, ROS, Arduino, Linux, OpenCV
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Projects 📂
 
-### `npm test`
+Here are some of the projects featured in my portfolio:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Real-time SLAM**: [GitHub](https://github.com/koitu/com304-radar-slam-project)
+2. **Source Detection of Infectious Diseases**: [GitHub](https://github.com/abdou-u/Simulation-and-Source-Detection-of-Infectious-Processes-on-Networks)
+3. **Snake Game in Assembly**: [GitHub](https://github.com/abdou-u/Snake-Game-Assembly)
+4. **Itinerary Planificator for Bikes in Switzerland**: [GitHub](https://github.com/abdou-u/JaVelo)
 
-### `npm run build`
+## How to Run 🚀
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   git clone https://github.com/abdou-u/portfolio.git
+2. Navigate to the project directory:
+   cd portfolio
+3. Install the dependencies:
+   npm install
+4. Start the development server:
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Demo 🌐
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Check out the live version of my portfolio [here](https://your-portfolio-url.vercel.app).
 
-### `npm run eject`
+## Acknowledgements 🙏
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This portfolio is inspired by and based on the wonderful work of [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio). Thank you for your amazing contributions to the developer community!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Connect with Me 🤝
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **GitHub**: [abdou-u](https://github.com/abdou-u)
+- **LinkedIn**: [Ahmed Abdelmalek](https://www.linkedin.com/in/ahmed-abdelmalek-7b61b91b8)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to connect with me and check out my work. Happy coding! 🎉
