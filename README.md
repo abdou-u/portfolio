@@ -15,7 +15,7 @@ Welcome to my personal portfolio! This is where I showcase my projects, skills, 
 
 ## Live Demo 🌐
 
-Check out the live version of my portfolio [here](https://portfolio-j2s0eg6cg-ahmed-abdelmaleks-projects.vercel.app/).
+Check out the live version of my portfolio [here](ahmed-abdelmalek-portfolio.vercel.app).
 
 ## Acknowledgements 🙏
 
