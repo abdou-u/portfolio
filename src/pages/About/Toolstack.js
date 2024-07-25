@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiGit } from "react-icons/di";
-import { SiLatex, SiArduino, SiLinux, SiOpencv } from "react-icons/si";
+import { SiLatex, SiArduino, SiLinux, SiOpencv, SiVisualstudiocode } from "react-icons/si";
 import { FaRobot } from "react-icons/fa";
 import { Tooltip } from 'react-tooltip';
 
@@ -27,6 +27,9 @@ function Toolstack() {
         <Col xs={4} md={2} className="tech-icons" data-tooltip-id="opencv-tooltip" data-tooltip-content="OpenCV">
           <SiOpencv />
         </Col>
+        <Col xs={4} md={2} className="tech-icons" data-tooltip-id="vscode-tooltip" data-tooltip-content="VSCode">
+          <SiVisualstudiocode />
+        </Col>
       </Row>
       <Tooltip id="git-tooltip" className="custom-tooltip" />
       <Tooltip id="latex-tooltip" className="custom-tooltip" />
@@ -34,6 +37,7 @@ function Toolstack() {
       <Tooltip id="arduino-tooltip" className="custom-tooltip" />
       <Tooltip id="linux-tooltip" className="custom-tooltip" />
       <Tooltip id="opencv-tooltip" className="custom-tooltip" />
+      <Tooltip id="vscode-tooltip" className="custom-tooltip" />
     </>
   );
 }
