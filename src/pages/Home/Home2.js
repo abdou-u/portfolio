@@ -10,33 +10,34 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+        <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              With an unquenchable thirst for knowledge and a deep-seated love for programming, I have immersed myself in the digital world, crafting solutions and exploring new realms of technology.
+              Driven by a passion for continuous learning and a commitment to technology, I have dedicated myself to developing solutions and advancing my knowledge in diverse technical areas.
               <br />
-              <br />I am well-versed in a diverse array of languages including
+              <br />
+              I am proficient in multiple programming languages, including
               <i>
                 <b className="purple"> Python, C/C++, Java, Scala, R, VHDL, and Assembly.</b>
               </i>
               <br />
               <br />
-              My core interests lie in building innovative 
+              My primary focus areas include developing cutting-edge 
               <i>
-                <b className="purple"> Web Technologies and Products</b>
+                <b className="purple"> Web Technologies</b>
               </i> 
-              , and diving deep into 
+              and exploring the potential of 
               <i>
-                <b className="purple"> Machine Learning and Artificial Intelligence.</b>
+                <b className="purple"> Machine Learning and AI.</b>
               </i>
               <br />
               <br />
-              When I'm not immersed in the digital world, you can find me in the water or on the court. 🏊‍♂️🤽‍♂️🏐 I am a passionate swimmer, water polo player, and volleyball enthusiast. Sports are my second love, right after my devotion to personal projects. As my father always said, <i>"mens sana in corpore sano"</i>, which means a healthy mind in a healthy body. 🧠💪
+              Outside of my technical work, I enjoy staying active through sports, including swimming, water polo, and volleyball. I believe in maintaining a balanced lifestyle, as reflected in the phrase <i>"mens sana in corpore sano"</i> (a healthy mind in a healthy body).
               <br />
               <br />
-              One of the things I enjoy the most is working with PCBs and other hardware. There's something incredibly satisfying about getting my hands dirty and testing hardware in the field after meticulously coding it. The blend of physical and intellectual challenge is exhilarating. 🛠️💻
+              I also have a deep interest in working with hardware, particularly PCBs and other electronic components. The process of bringing hardware and software together, from design to field testing, is a rewarding challenge that I find highly fulfilling.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

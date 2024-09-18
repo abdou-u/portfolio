@@ -7,23 +7,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Greetings to all who wander into my digital realm. I am <span className="purple">Ahmed Abdelmalek</span>, hailing from the picturesque city of <span className="purple">Lausanne, Switzerland</span>.
+            Hello and welcome. I am <span className="purple">Ahmed Abdelmalek</span>, currently based in <span className="purple">Lausanne, Switzerland</span>.
             <br />
             <br />
-            Currently, I am delving into the intricate world of Data Science as a Master's student at the prestigious EPFL. My academic journey began with a Bachelor's degree in Communication Systems, also from EPFL, where I laid the foundation of my technical prowess.
+            I am pursuing a Master's degree in Data Science at EPFL with a minor in Cybersecurity, where I am expanding on the technical foundation I built during my Bachelor's degree in Communication Systems, also at EPFL.
             <br />
             <br />
-            My passions extend beyond the realm of code. In my quest to balance intellect and creativity, I find solace in pursuits that nourish both mind and soul.
+            My interests span across both the theoretical and practical aspects of technology. I thrive in environments where I can leverage data-driven insights to solve real-world problems, blending logic and creativity to drive innovation.
           </p>
           <br />
           <p style={{ color: "rgb(155 126 172)" }}>
-            "In the vast expanse of digital signals, where code dances like music and innovation flows like fine wine, we find the harmony that connects us all."
+            "In the vast landscape of technology, where code drives transformation and data reveals opportunity, we discover the solutions that shape the future."
           </p>
           <br />
           <footer className="blockquote-footer">Ahmed Abdelmalek</footer>
           <br />
           <p style={{ textAlign: "justify" }}>
-            Although programming is my first love, a higher force guides me toward the realm of theory, where the fabric of our existence is woven by probabilities. These unseen threads shape our past, present, and future, steering us through the currents of time. I am captivated by the stochastic processes that govern our universe and the Markov chains that eloquently describe it. Their profound applications reveal the elegant interplay of chance and destiny, a symphony of randomness that touches every aspect of our lives.
+            While coding is central to my skill set, my passion for theory leads me to explore deeper mathematical frameworks such as stochastic processes and Markov chains. These concepts have powerful applications in data science and machine learning, enabling me to unravel complex systems and derive meaningful insights that inform decision-making.
           </p>
         </blockquote>
       </Card.Body>
