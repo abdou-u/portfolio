@@ -28,7 +28,7 @@ function Home2() {
               <i>
                 <b className="purple"> Web Technologies</b>
               </i> 
-              and exploring the potential of 
+               and exploring the potential of 
               <i>
                 <b className="purple"> Machine Learning and AI.</b>
               </i>
