@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import ReactTooltip from "react-tooltip";
 
 function Github() {
+  const [calendarLoaded, setCalendarLoaded] = useState(false);
+
+  useEffect(() => {
+    // Tooltip initialization for hover details
+    ReactTooltip.rebuild();
+  }, [calendarLoaded]);
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
@@ -14,7 +22,11 @@ function Github() {
         blockMargin={5}
         color="#c084f5"
         fontSize={16}
-      />
+        showTotalCount={true}
+        onLoad={() => setCalendarLoaded(true)} // Trigger the tooltip setup when the calendar loads
+      >
+        <ReactTooltip delayShow={50} html />
+      </GitHubCalendar>
     </Row>
   );
 }

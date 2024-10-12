@@ -26,9 +26,9 @@ function Home2() {
               <br />
               My primary focus areas include developing cutting-edge 
               <i>
-                <b className="purple"> Web Technologies</b>
+                <b className="purple"> Web Technologies </b>
               </i> 
-               and exploring the potential of 
+              and exploring the potential of 
               <i>
                 <b className="purple"> Machine Learning and AI.</b>
               </i>
