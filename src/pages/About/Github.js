@@ -1,17 +1,57 @@
 import React, { useEffect, useState } from "react";
 import { Row } from "react-bootstrap";
-import axios from "axios";
+import { request, gql } from "graphql-request";
 import GitHubCalendar from "react-github-calendar";
 import { Tooltip as ReactTooltip } from "react-tooltip";
+
+// GitHub API URL
+const GITHUB_API_URL = "https://api.github.com/graphql";
+
+// Use the GitHub API token from the environment variable
+const GITHUB_API_TOKEN = process.env.NEXT_PUBLIC_GITHUB_API_TOKEN; // This token should be set in Vercel
 
 function Github() {
   const [contributions, setContributions] = useState(null);
   const [calendarLoaded, setCalendarLoaded] = useState(false);
 
   const fetchContributions = async () => {
+    const query = gql`
+      {
+        user(login: "abdou-u") {
+          contributionsCollection {
+            contributionCalendar {
+              totalContributions
+              weeks {
+                contributionDays {
+                  date
+                  contributionCount
+                }
+              }
+            }
+          }
+        }
+      }
+    `;
+
     try {
-      const response = await axios.get("https://ahmed-abdelmalek-portfolio.vercel.app/api/contributions");
-      setContributions(response.data);
+      // Make the request to GitHub API
+      const data = await request(GITHUB_API_URL, query, null, {
+        Authorization: `Bearer ${GITHUB_API_TOKEN}`,
+      });
+
+      console.log("Raw contributions data:", data);
+
+      // Process the data into the format that GitHubCalendar expects
+      const contributionDays = data.user.contributionsCollection.contributionCalendar.weeks.flatMap(week =>
+        week.contributionDays.map(day => ({
+          date: day.date,
+          count: day.contributionCount,
+        }))
+      );
+
+      console.log("Processed contributions data:", contributionDays);
+
+      setContributions(contributionDays);
       setCalendarLoaded(true);
     } catch (error) {
       console.error("Error fetching contributions:", error);
@@ -27,19 +67,18 @@ function Github() {
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>
       </h1>
-      {calendarLoaded ? (
+      {calendarLoaded && contributions ? (
         <>
-          <p>Total contributions: {contributions.totalContributions}</p>
+          <p>Total contributions: {contributions.length}</p>
           <GitHubCalendar
             username="abdou-u"
             blockSize={15}
             blockMargin={5}
             color="#c084f5"
             fontSize={16}
-            data={contributions} // Ensure the data is in the correct format
+            data={contributions}
             showTotalCount={true}
           />
-          {/* Updated to use the `render` prop instead of the deprecated `html` */}
           <ReactTooltip render={({ content }) => <span>{content}</span>} delayShow={50} />
         </>
       ) : (
