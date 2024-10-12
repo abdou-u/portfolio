@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
-import { Tooltip as ReactTooltip } from "react-tooltip"; // Named import for ReactTooltip
+import { Tooltip as ReactTooltip } from "react-tooltip"; // Named import
 
 function Github() {
   const [calendarLoaded, setCalendarLoaded] = useState(false);
-  
+
   useEffect(() => {
-    // Tooltip initialization for hover details
     if (calendarLoaded) {
       ReactTooltip.rebuild();
     }
@@ -25,7 +24,8 @@ function Github() {
         color="#c084f5"
         fontSize={16}
         showTotalCount={true}
-        onLoad={() => setCalendarLoaded(true)} // Trigger the tooltip setup when the calendar loads
+        transformData={(contributions) => contributions} // Force transformation to ensure the latest data
+        onLoad={() => setCalendarLoaded(true)}
       />
       <ReactTooltip delayShow={50} html />
     </Row>
