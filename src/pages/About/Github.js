@@ -12,6 +12,19 @@ function Github() {
     }
   }, [calendarLoaded]);
 
+  // Custom function to adjust time zones if necessary
+  const adjustTimeZone = (contributions) => {
+    // Modify the contributions data according to the timezone difference if required
+    return contributions.map(contribution => {
+      // Example: shift contribution by a day if time zone difference is significant
+      const adjustedContribution = {
+        ...contribution,
+        date: new Date(contribution.date).toLocaleDateString('en-US', { timeZone: 'UTC' })
+      };
+      return adjustedContribution;
+    });
+  };
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
@@ -24,7 +37,7 @@ function Github() {
         color="#c084f5"
         fontSize={16}
         showTotalCount={true}
-        transformData={(contributions) => contributions} // Force transformation to ensure the latest data
+        transformData={adjustTimeZone} // Adjusting time zone if needed
         onLoad={() => setCalendarLoaded(true)}
       />
       <ReactTooltip delayShow={50} html />
