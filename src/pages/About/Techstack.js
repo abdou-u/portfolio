@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiPython, DiJava, DiScala } from "react-icons/di";
-import { SiR, SiPostgresql, SiSolidity, SiC } from "react-icons/si";
+import { SiR, SiPostgresql, SiSolidity, SiC, SiGo } from "react-icons/si";
 import { FaMicrochip, FaToolbox } from "react-icons/fa";
 import { Tooltip } from 'react-tooltip';
 
@@ -10,6 +10,9 @@ function Techstack() {
   return (
     <>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Col xs={4} md={2} className="tech-icons" data-tooltip-id="go-tooltip" data-tooltip-content="Go">
+          <SiGo />
+        </Col>
         <Col xs={4} md={2} className="tech-icons" data-tooltip-id="python-tooltip" data-tooltip-content="Python">
           <DiPython />
         </Col>
@@ -41,6 +44,7 @@ function Techstack() {
           <SiSolidity />
         </Col>
       </Row>
+      <Tooltip id="go-tooltip" className="custom-tooltip" />
       <Tooltip id="python-tooltip" className="custom-tooltip" />
       <Tooltip id="cpp-tooltip" className="custom-tooltip" />
       <Tooltip id="c-tooltip" className="custom-tooltip" />

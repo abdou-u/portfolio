@@ -6,8 +6,7 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 
 // GitHub API URL
 const GITHUB_API_URL = "https://api.github.com/graphql";
-const GITHUB_API_TOKEN = process.env.NEXT_PUBLIC_GITHUB_API_TOKEN; // Token from Vercel environment
-console.log("GitHub API Token:", process.env.NEXT_PUBLIC_GITHUB_API_TOKEN);
+const GITHUB_API_TOKEN = process.env.NEXT_PUBLIC_GITHUB_API_TOKEN;
 
 // Function to map the count to a level (0 to 4)
 const calculateLevel = (count) => {
