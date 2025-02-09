@@ -11,35 +11,19 @@ function Home2() {
       <Container>
         <Row>
         <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              Driven by a passion for continuous learning and a commitment to technology, I have dedicated myself to developing solutions and advancing my knowledge in diverse technical areas.
-              <br />
-              <br />
-              I am proficient in multiple programming languages, including
-              <i>
-                <b className="purple"> Python, C/C++, Java, Scala, R, VHDL, and Assembly.</b>
-              </i>
-              <br />
-              <br />
-              My primary focus areas include developing cutting-edge 
-              <i>
-                <b className="purple"> Web Technologies </b>
-              </i> 
-              and exploring the potential of 
-              <i>
-                <b className="purple"> Machine Learning and AI.</b>
-              </i>
-              <br />
-              <br />
-              Outside of my technical work, I enjoy staying active through sports, including swimming, water polo, and volleyball. I believe in maintaining a balanced lifestyle, as reflected in the phrase <i>"mens sana in corpore sano"</i> (a healthy mind in a healthy body).
-              <br />
-              <br />
-              I also have a deep interest in working with hardware, particularly PCBs and other electronic components. The process of bringing hardware and software together, from design to field testing, is a rewarding challenge that I find highly fulfilling.
-            </p>
-          </Col>
+          <h1 style={{ fontSize: "2.6em" }}>
+            ABOUT <span className="purple">ME</span>
+          </h1>
+          <p className="home-about-body">
+            I'm a <b className="purple">Data Science and Cybersecurity</b> enthusiast with expertise in <b className="purple">Machine Learning, AI, and full-stack development</b>. Proficient in <b className="purple">Python, Go, Java, C/C++, Scala, R, VHDL, and Assembly</b>.
+            <br />
+            <br />
+            Passionate about bridging hardware and software, I've worked on projects ranging from <b className="purple">deep learning models</b> to <b className="purple">low-level programming</b> and <b className="purple">FPGA integration</b>. I'm driven by a commitment to excellence and a love for continuous learning.
+            <br />
+            <br />
+            When I'm not coding, you'll find me staying active through swimming, water polo, and volleyball, living by the motto: <i>"mens sana in corpore sano"</i> (a healthy mind in a healthy body).
+          </p>
+        </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />

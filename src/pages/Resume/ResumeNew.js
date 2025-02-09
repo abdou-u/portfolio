@@ -3,7 +3,6 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../../components/Particle";
 import pdf from "../../Assets/cv.pdf";
-import cvImage from "../../Assets/cv.png";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
@@ -23,9 +22,7 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume" style={{ justifyContent: "center", marginBottom: "0" }}>
-          <img src={cvImage} alt="CV" className="cv-image" />
-        </Row>
+
 
         <Row style={{ justifyContent: "center", position: "relative", padding: "20px 0" }}>
           <Button
