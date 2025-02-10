@@ -19,7 +19,6 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Transforming data into solutions, one algorithm at a time."
           </p>
-          <footer className="blockquote-footer">Ahmed Abdelmalek</footer>
         </blockquote>
       </Card.Body>
     </Card>
