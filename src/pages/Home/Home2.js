@@ -21,7 +21,7 @@ function Home2() {
             Passionate about bridging hardware and software, I've worked on projects ranging from <b className="purple">deep learning models</b> to <b className="purple">low-level programming</b> and <b className="purple">FPGA integration</b>. I'm driven by a commitment to excellence and a love for continuous learning.
             <br />
             <br />
-            When I'm not coding, you'll find me staying active through swimming, water polo, and volleyball, living by the motto: <i>"mens sana in corpore sano"</i> (a healthy mind in a healthy body).
+            When I'm not coding, you'll find me staying active through swimming and volleyball.
           </p>
         </Col>
           <Col md={4} className="myAvtar">
