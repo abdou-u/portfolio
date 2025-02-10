@@ -15,7 +15,7 @@ function Home2() {
             ABOUT <span className="purple">ME</span>
           </h1>
           <p className="home-about-body">
-            I'm a <b className="purple">Data Science and Cybersecurity</b> enthusiast with expertise in <b className="purple">Machine Learning, AI, and full-stack development</b>. Proficient in <b className="purple">Python, Go, Java, C/C++, Scala, R, VHDL, and Assembly</b>.
+            I'm a <b className="purple">Data Science and Cybersecurity</b> enthusiast with expertise in <b className="purple">Machine Learning and AI</b>. Proficient in <b className="purple">Python, Go, Java, C/C++, Scala, R, VHDL, and Assembly</b>.
             <br />
             <br />
             Passionate about bridging hardware and software, I've worked on projects ranging from <b className="purple">deep learning models</b> to <b className="purple">low-level programming</b> and <b className="purple">FPGA integration</b>. I'm driven by a commitment to excellence and a love for continuous learning.
