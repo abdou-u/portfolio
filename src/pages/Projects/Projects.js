@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../../components/Particle";
+
+// Existing assets
 import slam from "../../Assets/slam.jpeg";
 import simulation from "../../Assets/simulation.png";
 import snake from "../../Assets/snake.png";
@@ -16,6 +18,16 @@ import heart from "../../Assets/heart.png";
 import roadReport from "../../Assets/roadReport.pdf";
 import heartReport from "../../Assets/heartReport.pdf";
 
+// 🔥 New assets
+import fuzzingImg from "../../Assets/fuzzing.png";               
+import fuzzingReport from "../../Assets/Fuzzing.pdf";            
+import safetyFirstImg from "../../Assets/safetyfirst.png";         
+import safetyFirstProcessBook from "../../Assets/SafetyFirst_ProcessBook.pdf";
+import eegImg from "../../Assets/eeg_gcn_lstm.png";               
+import eegReport from "../../Assets/eeg.pdf";
+import cs552Img from "../../Assets/cs552_quantized.png";         
+import cs552Report from "../../Assets/MNLP.pdf";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -28,7 +40,52 @@ function Projects() {
           Cutting-edge solutions at the intersection of data science, cybersecurity, and systems design
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* Existing Projects - Refined */}
+
+          {/* ===== New Projects ===== */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cs552Img}
+              title="CS-552 Quantized LLMs (Qwen3-0.6B)"
+              description="Led the quantization track: 4-bit QLoRA and PTQ pipelines, reproducible Hugging Face releases, AutoModel compatibility with custom quantization_config."
+              ghLink="https://github.com/CS-552/project-m3-2025-404botnotfound.git"
+              reportLink={cs552Report}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eegImg}
+              title="Multi-Scale GCN-LSTM for EEG Seizures"
+              description="Hybrid GCN+BiLSTM with dynamic connectivity graphs across 0.5s/1s/2s windows; attention fusion; Macro-F1 ≈ 0.82 on TUSZ Kaggle subset."
+              ghLink="https://github.com/abdou-u/NetworkML.git"
+              reportLink={eegReport}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={safetyFirstImg}
+              title="SafetyFirst: Crime Viz & Safe Routing"
+              description="Interactive heatmaps, risk-aware routing, and Google Maps integration. Full data pipeline + live site. (Screencast available in repo.)"
+              ghLink="https://github.com/com-480-data-visualization/SafetyFirst.git"
+              demoLink="https://com-480-data-visualization.github.io/SafetyFirst/"
+              reportLink={safetyFirstProcessBook}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fuzzingImg}
+              title="Fuzzing libpcap with OSS-Fuzz"
+              description="Custom harnesses (e.g., fuzz_findalldev.c), automated Docker builds, coverage benchmarking, and crash reproduction with PoCs."
+              ghLink="https://github.com/RandomUsername1315/Fuzzing.git"
+              reportLink={fuzzingReport}
+            />
+          </Col>
+
+          {/* ===== Existing Projects (kept) ===== */}
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={slam}
