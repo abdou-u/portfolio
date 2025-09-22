@@ -1,6 +1,6 @@
-# Ahmed's Portfolio 🎉
+# My Portfolio
 
-Welcome to my personal portfolio! This is where I showcase my projects, skills, and experiences. I'm excited to share my journey and work with you. 🚀
+Welcome to my personal portfolio! This is where I showcase my projects, skills, and experiences. 🚀
 
 ## How to Run 🚀
 
@@ -19,7 +19,7 @@ Check out the live version of my portfolio [here](https://ahmed-abdelmalek-portf
 
 ## Acknowledgements 🙏
 
-This portfolio is inspired by and based on the wonderful work of [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio). Thank you for your amazing contributions to the developer community!
+This portfolio is inspired by and based on the wonderful work of [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio). Thank you for your amazing contributions!
 
 ## Connect with Me 🤝
 
